@@ -8,6 +8,7 @@ process.stdin.on('data', (number) => {
 
     else if(number <= 0 || number > 99)
         console.log('arrete de mytho ! donne ton vrai age!')
+        
     else
         console.log('on ta demander ton age !! retard !!')
 
