@@ -1,0 +1,12 @@
+<div class="text-align-center">
+  <h1>-Contact-</h1>
+
+  <img [src]="User.photo" [alt]="profile">
+ 
+  <p>name : {{User.name}} {{User.firstName}}</p>
+  <p [hidden]="display"> {{User.age}} ans</p>
+  <p>" {{User.quote}} "</p>
+  <p><input [(ngModel)]="User.quote"></p>
+  <button (click)="displayage()">masquer l'age</button>
+  
+</div>
