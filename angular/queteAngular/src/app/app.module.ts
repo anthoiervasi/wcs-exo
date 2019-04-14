@@ -4,12 +4,14 @@ import { FormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { UserProfileComponent } from './user-profile/user-profile.component';
+import { FilmComponent } from './film/film.component';
+import { DisplayFilmDirective } from './display-film.directive';
 
 @NgModule({
   declarations: [
     AppComponent,
-    UserProfileComponent
+    FilmComponent,
+    DisplayFilmDirective,
   ],
   imports: [
     BrowserModule,
